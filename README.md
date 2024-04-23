@@ -49,7 +49,7 @@ Navigate through the different sections of the website to explore my projects, s
 
 ## Contact
 
-For any inquiries or feedback, feel free to contact me at [your_email@example.com](mailto:your_email@example.com).
+For any inquiries or feedback, feel free to contact me at [syedfardeenjeelani13@gmail.com](mailto:syedfardeenjeelani13@gmail.com).
 
 ## License
 
