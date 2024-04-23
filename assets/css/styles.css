@@ -1,0 +1,54 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+/*===== VARIABLES CSS =====*/
+.flex {
+  display: flex;
+  /* justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+#myModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#brick {
+  border-radius: 15px;
+  text-align: center;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  position: relative;
+}
+#close {
+  text-align: right;
+  position: absolute;
+  right: 4px;
+  top: 3px;
+  border: none;
+  font-size: 28px;
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+}
